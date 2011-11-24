@@ -1,0 +1,5 @@
+inherit gnome2
+
+
+DEPEND="gnome-common intltool
+	pkgconfig(gtksourceviewmm-3.0)"

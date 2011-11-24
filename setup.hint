@@ -1,0 +1,6 @@
+category: Gnome
+requires: libatkmm1.6_1 libgcc1 libglib2.0_0 libglibmm2.4_1 libgtk3_0 libgtkmm3.0_1 libgtksourceviewmm3.0_0 libintl8 libpangomm1.4_1 libsigc2.0_0 libstdc++6
+sdesc: "GNOME search and replace tool"
+ldesc: "regexxer is a nifty search/replace tool for the desktop user.  
+It features recursive search through directory trees and Perl-style 
+regular expressions."
