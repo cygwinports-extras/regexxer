@@ -1,0 +1,32 @@
+--- origsrc/regexxer-0.10/src/fileshared.h	2011-10-06 07:50:48.000000000 -0500
++++ src/regexxer-0.10/src/fileshared.h	2013-10-15 01:08:55.324231600 -0500
+@@ -23,6 +23,7 @@
+ 
+ #include "sharedptr.h"
+ 
++#include <glibmm/regex.h>
+ #include <gtkmm/textbuffer.h>
+ #include <functional>
+ #include <utility>
+--- origsrc/regexxer-0.10/src/globalstrings.h	2011-10-06 07:50:48.000000000 -0500
++++ src/regexxer-0.10/src/globalstrings.h	2013-10-15 01:10:11.268575400 -0500
+@@ -21,7 +21,7 @@
+ #ifndef REGEXXER_GLOBALSTRINGS_H_INCLUDED
+ #define REGEXXER_GLOBALSTRINGS_H_INCLUDED
+ 
+-#include <glib/gutils.h>  /* for G_DIR_SEPARATOR_S */
++#include <glib.h>  /* for G_DIR_SEPARATOR_S */
+ 
+ namespace Regexxer
+ {
+--- origsrc/regexxer-0.10/src/translation.h	2011-10-06 07:50:48.000000000 -0500
++++ src/regexxer-0.10/src/translation.h	2013-10-15 01:10:32.621796700 -0500
+@@ -21,7 +21,7 @@
+ #ifndef REGEXXER_TRANSLATION_H_INCLUDED
+ #define REGEXXER_TRANSLATION_H_INCLUDED
+ 
+-#include <glib/gmacros.h>
++#include <glib.h>
+ #include <glibmm/ustring.h>
+ 
+ #ifndef gettext_noop

@@ -1,0 +1,15 @@
+inherit gnome2
+
+NAME="regexxer"
+VERSION=0.10
+RELEASE=1
+CATEGORY="GNOME"
+SUMMARY="GNOME search and replace tool"
+DESCRIPTION="regexxer is a nifty search/replace tool for the desktop user.
+It features recursive search through directory trees and Perl-style regular
+expressions."
+
+PATCH_URI="0.10-glib-includes.patch"
+
+DEPEND="gnome-common intltool
+	pkgconfig(gtksourceviewmm-3.0)"
